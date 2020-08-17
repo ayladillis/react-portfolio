@@ -8,11 +8,11 @@ import Footer from "./components/Footer/index";
 function App() {
   return (
     <div>
-      {/* <Navbar />
+      <Navbar />
       <Jumbotron />
-      <PortfolioCards />
-      <AboutMe />
-      <Footer /> */}
+      {/* <PortfolioCards /> */}
+      {/* <AboutMe /> */}
+      {/* <Footer /> */}
     </div>
   );
 }
