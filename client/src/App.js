@@ -10,8 +10,6 @@ function App() {
     <div>
       <Navbar />
       <Jumbotron />
-      {/* <PortfolioCards /> */}
-      {/* <AboutMe /> */}
       {/* <Footer /> */}
     </div>
   );
