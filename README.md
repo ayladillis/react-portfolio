@@ -2,7 +2,7 @@
 
 Building my profesional protfolio to become employer ready and competitive using react. Must include links to my Github, Linkedin, Resume, social media and contact information. 
 
-![Web Screenshot](https://media.giphy.com/media/L12YH9Krpas4s862CX/giphy.gif)
+![Web Screenshot]()
 
 
 ## Table of Content
@@ -18,7 +18,6 @@ Build a unique app that displays at least three projects with links to them, mak
 
 ## Deploy Link
 
-https://polar-falls-52203.herokuapp.com/ 
 
 ## Getting Started
 These instructions will get you a copy of the project up and running on your local machine for development and testing purposes. See deployment for notes on how to deploy the project on a live system.
@@ -35,12 +34,10 @@ Then open in your preferred text editor:
 
 ## Code Highlight
 
-Within my html I used href to navigate to different parts of my page 
 
-![Web Screenshot](./public/img/code1.png)
+![Web Screenshot]()
 
-Inorder to make the slide carousel of cards work I needed to build a function in Javascript, on line 5 specified how many slides I wanted to show at a time; 3
-![Web Screenshot](./public/img/code2.png)
+![Web Screenshot]()
 
 
 ## Technology
@@ -50,6 +47,11 @@ Inorder to make the slide carousel of cards work I needed to build a function in
 * [JQuery](https://jquery.com/)
 * [Heroku](https://dashboard.heroku.com)
 * [Bootstrap](https://getbootstrap.com/)
+* [React](https://reactjs.org/)
+* [Github-Pages](https://pages.github.com/)
+* [Node](https://node.js.org/)
+* [Express](https://expressjs.com/)
+
 
 ## Author
 ### [Ayla Dillis](https://github.com/ayladillis)
