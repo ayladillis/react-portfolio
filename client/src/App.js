@@ -5,7 +5,7 @@ import Jumbotron from "./components/Jumbotron/index";
 import AboutMe from "./components/AboutMe/index";
 import Blog from "./components/Blog/index";
 import Footer from "./components/Footer/index";
-// import Chart from "./components/Chart/index";
+import Chart from "./components/Chart/index";
 
 function App() {
   return (
@@ -13,7 +13,7 @@ function App() {
       <Navbar />
       <Jumbotron />
 
-      {/* <Chart /> */}
+      <Chart />
       <AboutMe />
       <Blog />
       <Footer />

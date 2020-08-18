@@ -9,7 +9,7 @@ class Chart extends Component {
             labels: ['Javascript', 'HTML', 'CSS', 'Express', 'Node', 'MongoDB', 'React'],
             datasets: [{
                 data: [30, 10, 10, 20, 10, 10, 10],
-                backgroundColor: ['pink', 'red', 'blue', 'yellow', 'green', 'orange', 'purple']
+                backgroundColor: ['pink', 'black', 'blue', 'gray', 'green', 'orange', 'yellow']
             }]
         }
     }
