@@ -12,9 +12,8 @@ function App() {
     <div>
       <Navbar />
       <Jumbotron />
-
-      <Chart />
       <AboutMe />
+      <Chart />
       <Blog />
       <Footer />
     </div>

@@ -1,5 +1,6 @@
 import {Pie} from 'react-chartjs-2';
 import React, {Component} from 'react'
+import "./style.css"
 
 class Chart extends Component {
 
@@ -9,7 +10,7 @@ class Chart extends Component {
             labels: ['Javascript', 'HTML', 'CSS', 'Express', 'Node', 'MongoDB', 'React'],
             datasets: [{
                 data: [30, 10, 10, 20, 10, 10, 10],
-                backgroundColor: ['pink', 'black', 'blue', 'gray', 'green', 'orange', 'yellow']
+                backgroundColor: ['red', 'orange', 'yellow', 'blue', 'green', 'indigo', 'purple']
             }]
         }
     }
@@ -17,7 +18,7 @@ class Chart extends Component {
     render() {
         return (
             <div>
-                <h1>Skills</h1>
+                <figcaption id="skills"><strong>Skills</strong></figcaption>
                 <Pie
                     data={{
                         labels: this.state.labels,
