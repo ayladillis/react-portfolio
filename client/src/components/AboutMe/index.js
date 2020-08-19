@@ -11,7 +11,7 @@ function AboutMe () {
     <div className="row">
     <div className="col">
       <figure className="figure">
-        <img src="/ayla.jpeg" className="figure-img img-fluid rounded" alt="headshot" />
+        <img src="./ayla.jpg" className="figure-img img-fluid rounded" alt="headshot" />
         <figcaption><strong>Nice to Meet You!</strong></figcaption>
         <figcaption className="figure-caption"> I graduated from San Francisco State University in May of 2020 I went right back to school to learn coding, I'm passonate about approaching programming challenges from different angles and collaborating with others to create 
                       meaningful web applications, one of my favorite aspects of code is the ability to create something out of just an idea!</figcaption>
