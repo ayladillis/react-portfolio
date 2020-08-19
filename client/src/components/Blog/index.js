@@ -8,7 +8,7 @@ function Blog() {
             <br></br>
             <div className="card-group">
   <div className="card">
-    <img className="card-img-top" src="..." alt="blog" />
+    <img className="card-img-top" src={process.env.PUBLIC_URL + "/img/codecode.jpg"} alt="blog" />
     <div className="card-body">
       <h5 className="card-title">An Amateur Explains ‘.querySelector’</h5>
       <p className="card-text">My favorite thing about code is that any question you could ever have can be found with Google search, hardly any other profession...</p>
@@ -17,7 +17,7 @@ function Blog() {
     </div>
   </div>
   <div className="card">
-    <img className="card-img-top" src="./web-browsers.jpg" alt="blog" />
+    <img className="card-img-top" src={process.env.PUBLIC_URL +"/img/web-browsers.jpg"} alt="blog" />
     <div className="card-body">
       <h5 className="card-title">Battle of the Browsers</h5>
       <p className="card-text">Today ‘searching it online’ and ‘Googling it’ are virtually the same thing, Google is the most used and well-known web browser...</p>

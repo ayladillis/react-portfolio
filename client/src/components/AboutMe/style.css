@@ -4,3 +4,8 @@
 figcaption {
     text-align: center;
 }
+.figure-img {
+    border-radius: 500px;
+    margin: 0 auto;
+    display: block;
+}

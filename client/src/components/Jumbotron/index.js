@@ -8,7 +8,6 @@ function Jumbotron () {
     <div className="card-img-overlay">
     <h1 className="title"><strong>Ayla Dillis</strong></h1>
     <p className="card-text">Full Stack Web Developer <br/> Bay Area</p>
-    {/* <p className="card-text">Bay Area</p> */}
     </div>
     </div>
     )

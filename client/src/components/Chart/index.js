@@ -17,7 +17,7 @@ class Chart extends Component {
 
     render() {
         return (
-            <div>
+            <div class="pie">
                 <figcaption id="skills"><strong>Skills</strong></figcaption>
                 <Pie
                     data={{
