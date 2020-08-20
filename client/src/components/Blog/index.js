@@ -16,7 +16,7 @@ function Blog() {
       <p className="card-text"><small className="text-muted">July, 5th 2020</small></p>
     </div>
   </div>
-  <div className="card">
+  <div className="card ml-2 mr-2">
     <img className="card-img-top" src={process.env.PUBLIC_URL +"/img/web-browsers.jpg"} alt="blog" />
     <div className="card-body">
       <h5 className="card-title">Battle of the Browsers</h5>

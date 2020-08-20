@@ -17,14 +17,14 @@ class Chart extends Component {
 
     render() {
         return (
-            <div class="pie">
+            <div className="pie">
                 <figcaption id="skills"><strong>Skills</strong></figcaption>
                 <Pie
                     data={{
                         labels: this.state.labels,
                         datasets: this.state.datasets
                     }}
-                    height='50%'
+                    height = { 200 }
                 />
                 <br />
             </div>

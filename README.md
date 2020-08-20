@@ -2,7 +2,7 @@
 
 Building my profesional protfolio to become employer ready and competitive using react. Must include links to my Github, Linkedin, Resume, social media and contact information. 
 
-![Web Screenshot]()
+<!-- ![Web Screenshot]() -->
 
 
 ## Table of Content
@@ -23,9 +23,9 @@ Build a unique app that displays at least three projects with links to them, mak
 These instructions will get you a copy of the project up and running on your local machine for development and testing purposes. See deployment for notes on how to deploy the project on a live system.
 
 ```
-$ git clone git@github.com:ayladillis/ayladillis_portfolio.git
-ayladillis/ayladillis_portfolio.git
-$ cd ayladillis/ayladillis_portfolio.git
+$ git clone git@github.com:ayladillis/react-portfoio.git
+ayladillis/react-portfoio.git
+$ cd ayladillis/react-portfoio.git
 ```
 Then open in your preferred text editor:
 - [vim](https://www.vim.org/) 

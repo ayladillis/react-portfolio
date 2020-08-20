@@ -21,7 +21,7 @@ function Navbar (){
             <a className="nav-link" href=" ">Blog</a>
             </li>
             <li className="nav-item active">
-            <a className="nav-link" href=" " tabindex="-1">Contact</a>
+            <a className="nav-link" href=" " tabIndex="-1">Contact</a>
             </li>
         </ul>
         </div>
