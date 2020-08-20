@@ -1,5 +1,5 @@
 import React from "react";
-import "./Carousel.css";
+import "./style.css";
 
 function Carousel () {
     return (
@@ -88,6 +88,20 @@ function Carousel () {
                                 <a href="https://github.com/ayladillis/Good-README">GitHub</a>
                                 <br />
                                 <a href="https://ayladillis.github.io/Good-README/">Deployed link</a>
+                                </div>                        
+                            </div>
+                        </div>
+                    </div>
+                    <div className="carousel-item">
+                        <div className="col-md-4">
+                            <div className="card card-body">
+                                <img src= {process.env.PUBLIC_URL + "/img/book-search.png"} className="portfolio-img" alt="portfolio img" />
+                                <h6>'Google' Book Search</h6>
+                                <p>A full stack app built with React for users to search for books then see their results in either Google books or a saved page. </p>
+                                <div className="card-action">
+                                <a href="https://github.com/ayladillis/book-search">GitHub</a>
+                                <br />
+                                <a href="https://protected-springs-48750.herokuapp.com/search">Deployed link</a>
                                 </div>                        
                             </div>
                         </div>
