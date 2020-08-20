@@ -1,4 +1,6 @@
 import React from "react";
+import Chart from "../Chart";
+
 import "./style.css"
 
 function AboutMe () {
@@ -18,6 +20,7 @@ function AboutMe () {
       </figure>
     </div>
     <div className="col">
+      <Chart />
     </div>
   </div>
   </div>

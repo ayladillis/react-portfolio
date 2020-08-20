@@ -1,5 +1,4 @@
 import React from "react";
-import FontAwesomeIcon from "@fortawesome/react-fontawesome"
 
 function Footer () {
     return (
@@ -12,33 +11,17 @@ function Footer () {
       <div class="row">
         <div class="col-sm">
           <div class="icon-block">
-            <a href="https://docs.google.com/document/d/10KTrWoi_lqT1ogBMu14DlecByneWXwqOW67q6kGi3HY/edit?usp=sharing">
-              <h2>
-                {/* <i id="resume" class="material-icons md-36">folder_open</i> */}
-                {/* <FontAwesomeIcon icon={["far", "file-user"]} /> */}
-                </h2>
-                </a>
-            <h5 class="center">Resume</h5>
+            <h5><a href={"https://docs.google.com/document/d/10KTrWoi_lqT1ogBMu14DlecByneWXwqOW67q6kGi3HY/edit?usp=sharing"}>Click here to go to my Resume</a></h5>
           </div>
         </div>
         <div class="col-sm">
           <div class="icon-block">
-            <a href="https://github.com/ayladillis">
-              <h2 class="center black-text">
-                {/* <i id="github" class="fa fa-github" style="font-size:45px"></i> */}
-                  </h2>
-                  </a>
-            <h5 class="center">Github</h5>
+            <h5><a href={"https://github.com/ayladillis"}>See my Github!</a></h5>
           </div>
         </div>
         <div class="col-sm">
           <div class="icon-block">
-            <a href="https://www.linkedin.com/in/ayladillis/">
-              <h2 class="center black-text">
-                {/* <i id="linkedin" class="fa fa-linkedin-square" style="font-size:45px"></i> */}
-                </h2>
-                </a>
-            <h5 class="center">Linkedin</h5>
+              <h5><a href={"https://www.linkedin.com/in/ayladillis/"}>Visit my Linkedin</a></h5>
           </div>
         </div>
       </div>
