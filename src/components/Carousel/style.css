@@ -32,3 +32,17 @@
 transform: translateX(0);
 }
 
+.rounded-circle {
+  width: 40px !important;
+  height: 40px !important;
+}
+
+.carousel-control-prev-icon {
+  right: 200px;
+  position: absolute;
+}
+
+.carousel-control-next-icon {
+  left: 200px;
+  position: absolute;
+}

@@ -1,4 +1,5 @@
 import React from "react";
+import "./style.css";
 
 function Footer () {
     return (
@@ -8,22 +9,16 @@ function Footer () {
           <p className="card-text">phone: (805) 458 - 8249 || email: aayladillis@gmail.com</p>
 
           <div className="container">
-      <div className="row">
-        <div className="col-sm">
-          <div className="icon-block">
-            <h5><a href="/assets/resume.pdf">Click here to go to my Resume</a></h5>
+      <div style={{ display: 'flex', flexDirection: 'row', justifyContent: 'center' }}>
+          <div className="icon-block" style={{ margin: '10px' }}>
+            <h5><a href="/assets/resume.pdf"><i className="fas fa-paperclip fa-2x" /></a></h5>
           </div>
+          <div className="icon-block" style={{ margin: '10px' }}>
+            <h5><a href={"https://github.com/ayladillis"}><i class="fab fa-github fa-2x" /></a></h5>
         </div>
-        <div className="col-sm">
-          <div className="icon-block">
-            <h5><a href={"https://github.com/ayladillis"}>See my Github!</a></h5>
+          <div className="icon-block" style={{ margin: '10px' }}>
+              <h5><a href={"https://www.linkedin.com/in/ayladillis/"}><i class="fab fa-linkedin fa-2x" /></a></h5>
           </div>
-        </div>
-        <div className="col-sm">
-          <div className="icon-block">
-              <h5><a href={"https://www.linkedin.com/in/ayladillis/"}>Visit my Linkedin</a></h5>
-          </div>
-        </div>
       </div>
     </div>
 

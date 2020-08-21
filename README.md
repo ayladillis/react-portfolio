@@ -1,8 +1,6 @@
 # react-portfolio
 
-Building my profesional protfolio to become employer ready and competitive using react. Must include links to my Github, Linkedin, Resume, social media and contact information. 
-
-<!-- ![Web Screenshot]() -->
+Building a profesional protfolio with react to become employer ready and competitive. Must include links to my Github, Linkedin, Resume, social media and contact information. 
 
 
 ## Table of Content
@@ -34,10 +32,10 @@ Then open in your preferred text editor:
 
 ## Code Highlight
 
+This is the code I used to add the carousel of cards with my projects on them, the useEffect hook is how I added the Javascript and on line 11 I defined how many cards I wanted to be shown at once. 
 
-![Web Screenshot]()
+![Web Screenshot](./public/img/codeSnippet.png)
 
-![Web Screenshot]()
 
 
 ## Technology
