@@ -1,6 +1,8 @@
 /* global $ */
 import React, { useEffect } from "react";
 import "./style.css";
+import { Button } from 'react-bootstrap';
+
 
 function Carousel () {
     useEffect(() => {
@@ -39,9 +41,8 @@ function Carousel () {
                                 <h6>Note Taker</h6>
                                 <p>This application can be used to write, save, and delete notes, Note Taker uses an express backend and save and retrieve note data from a JSON file.</p>                      
                                 <div className="card-action">
-                                <a href="https://github.com/ayladillis/Note-Taker">GitHub</a>
-                                <br />
-                                <a href="https://warm-brook-79560.herokuapp.com/">Deployed link</a>
+                                <Button href="https://github.com/ayladillis/Note-Taker" variant="danger" style={{ margin: '5px' }}>GitHub</Button>  
+                                <Button href="https://warm-brook-79560.herokuapp.com/" variant="danger" style={{ margin: '5px' }}>Deploy link</Button>                                                        
                                 </div>
                             </div>
                         </div>
@@ -53,9 +54,9 @@ function Carousel () {
                                 <h6>Travel Bucketlist</h6>
                                 <p>The Travel Bucketlist app uses MySQL, Node, Express, Handlebars and a homemade ORM to run, Node and MySQL query and route data in the app, and Handlebars to generates the HTML.</p>
                                 <div className="card-action">
-                                <a href="https://github.com/ayladillis/Travel-Bucketlist">GitHub</a>
-                                <br />
-                                <a href="https://frozen-wildwood-92430.herokuapp.com/">Deployed Link</a>
+                                <Button href="https://github.com/ayladillis/Travel-Bucketlist" variant="danger" style={{ margin: '5px' }}>GitHub</Button>  
+                                <Button href="https://frozen-wildwood-92430.herokuapp.com/" variant="danger" style={{ margin: '5px' }}>Deploy link</Button>                                                        
+
                                 </div>                        
                             </div>
                         </div>
@@ -67,9 +68,9 @@ function Carousel () {
                                 <h6>Employee Summary</h6>
                                 <p>The application will prompt the user for information about the team manager and then information about the team members. The user can input any number of team members, and they may be a mix of engineers and interns.</p>
                                 <div className="card-action">
-                                <a href="https://github.com/ayladillis/employee_summary">GitHub</a>
-                                <br />
-                                <a href="https://ayladillis.github.io/employee_summary/">Deployed Link</a>
+                                <Button href="https://github.com/ayladillis/employee_summary" variant="danger" style={{ margin: '5px' }}>GitHub</Button>  
+                                <Button href="https://ayladillis.github.io/employee_summary/" variant="danger" style={{ margin: '5px' }}>Deploy link</Button>                                                        
+
                                 </div>
                             </div>
                         </div>
@@ -81,9 +82,8 @@ function Carousel () {
                                 <h6>Property Mover</h6>
                                 <p>Property Mover takes in an address that the user wants to map from as well as the maximum time they want to commute (by car) and how much they want to spend on housing. A map and listing of properties with there commute times is generated.</p>
                                 <div className="card-action">
-                                <a href="https://github.com/ayladillis/Coding-Bootcamp-Project-1-Zillow-Maps-API-AD">GitHub</a>
-                                <br />
-                                <a href="https://ayladillis.github.io/Coding-Bootcamp-Project-1-Zillow-Maps-API-AD/">Deployed Link</a>
+                                <Button href="https://github.com/ayladillis/Coding-Bootcamp-Project-1-Zillow-Maps-API-AD" variant="danger" style={{ margin: '5px' }}>GitHub</Button>  
+                                <Button href="https://ayladillis.github.io/Coding-Bootcamp-Project-1-Zillow-Maps-API-AD/" variant="danger" style={{ margin: '5px' }}>Deploy link</Button>                                                        
                                 </div>                        
                             </div>
                         </div>
@@ -95,9 +95,8 @@ function Carousel () {
                                 <h6>Day Planner</h6>
                                 <p>This app implements JQuery and Javascript to input notes to a 8 hour schedule, a time API to display the current date and uses local stroage to save the data and then pulling it back out when the browser is refreshed. </p>
                                 <div className="card-action">
-                                <a href="https://github.com/ayladillis/third-party-APIs">GitHub</a>
-                                <br />
-                                <a href="https://ayladillis.github.io/third-party-APIs/">Deployed Link</a>
+                                <Button href="https://github.com/ayladillis/third-party-APIs" variant="danger" style={{ margin: '5px' }}>GitHub</Button>  
+                                <Button href="https://ayladillis.github.io/third-party-APIs/" variant="danger" style={{ margin: '5px' }}>Deploy link</Button>                                                        
                                 </div>                        
                             </div>
                         </div>
@@ -109,9 +108,8 @@ function Carousel () {
                                 <h6>Readme Generator</h6>
                                 <p>Create an open source project that makes a quality README anyone can use, in will include a title, description, table of contents, instillation, usage, license, contributing, tests, questions and at least one badge. </p>
                                 <div className="card-action">
-                                <a href="https://github.com/ayladillis/Good-README">GitHub</a>
-                                <br />
-                                <a href="https://ayladillis.github.io/Good-README/">Deployed link</a>
+                                <Button href="https://github.com/ayladillis/Good-README" variant="danger" style={{ margin: '5px' }}>GitHub</Button>  
+                                <Button href="https://ayladillis.github.io/Good-README/" variant="danger" style={{ margin: '5px' }}>Deploy link</Button>                                                        
                                 </div>                        
                             </div>
                         </div>
@@ -123,9 +121,8 @@ function Carousel () {
                                 <h6>'Google' Book Search</h6>
                                 <p>A full stack app built with React for users to search for books then see their results in either Google books or a saved page. </p>
                                 <div className="card-action">
-                                <a href="https://github.com/ayladillis/book-search">GitHub</a>
-                                <br />
-                                <a href="https://protected-springs-48750.herokuapp.com/search">Deployed link</a>
+                                <Button href="https://github.com/ayladillis/book-search" variant="danger" style={{ margin: '5px' }}>GitHub</Button>  
+                                <Button href="https://protected-springs-48750.herokuapp.com/search" variant="danger" style={{ margin: '5px' }}>Deploy link</Button>                                                        
                                 </div>                        
                             </div>
                         </div>
@@ -137,9 +134,8 @@ function Carousel () {
                             <h6>Fitness App</h6>
                             <p>This app takes in user input such as exercise type, name, sets and reps and calculates workout duration, pounds lifted, and exercises performed.</p>
                             <div className="card-action">
-                                <a href="https://github.com/ayladillis/fitness-app">GitHub</a>
-                                <br />
-                                <a href="https://cryptic-tundra-13999.herokuapp.com/">Deployed link</a>
+                                <Button href="https://github.com/ayladillis/fitness-app" variant="danger" style={{ margin: '5px' }}>GitHub</Button>  
+                                <Button href="https://cryptic-tundra-13999.herokuapp.com/" variant="danger" style={{ margin: '5px' }}>Deploy link</Button>                                                        
                             </div>                        
                         </div>
                     </div>
@@ -151,9 +147,8 @@ function Carousel () {
                             <h6>Clicky Game</h6>
                             <p>This is a memory game where to goal is to not click on any one pictures twice, score is kept by increasing when the user correctly selects different images and decreasing when the user clicks on one image twice. </p>
                             <div className="card-action">
-                            <a href="https://github.com/ayladillis/clicky-game">GitHub</a>
-                            <br />
-                            <a href="https://ayladillis.github.io/clicky-game/">Deployed link</a>
+                            <Button href="https://github.com/ayladillis/clicky-game" variant="danger" style={{ margin: '5px' }}>GitHub</Button>  
+                            <Button href="https://ayladillis.github.io/clicky-game/" variant="danger" style={{ margin: '5px' }}>Deploy link</Button>                                                        
                             </div>                        
                         </div>
                     </div>
@@ -166,9 +161,8 @@ function Carousel () {
                         <p>This app was created with React, it allows the user to search for employees by name as well as sort emails alphabetically. Employee images, names, emails and phone numers are displayed.
                         </p>
                         <div className="card-action">
-                            <a href="https://github.com/ayladillis/employee-directory">GitHub</a>
-                            <br />
-                            <a href="https://ayladillis.github.io/employee-directory/">Deployed link</a>
+                            <Button href="https://github.com/ayladillis/employee-directory" variant="danger" style={{ margin: '5px' }}>GitHub</Button>  
+                            <Button href="https://ayladillis.github.io/employee-directory/" variant="danger" style={{ margin: '5px' }}>Deploy link</Button>                                                        
                         </div>                        
                     </div>
                 </div>

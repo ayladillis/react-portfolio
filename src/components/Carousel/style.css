@@ -1,3 +1,9 @@
+/* img {
+  width: 300px;
+  height: 300px;
+  align-items: center;
+} */
+
 @media (max-width: 768px) {
   .carousel-inner .carousel-item > div {
       display: none;

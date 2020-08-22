@@ -11,7 +11,7 @@ function Footer () {
           <div className="container">
       <div style={{ display: 'flex', flexDirection: 'row', justifyContent: 'center' }}>
           <div className="icon-block" style={{ margin: '10px' }}>
-            <h5><a href="/assets/resume.pdf"><i className="fas fa-paperclip fa-2x" /></a></h5>
+            <h5><a href={"https://docs.google.com/document/d/10KTrWoi_lqT1ogBMu14DlecByneWXwqOW67q6kGi3HY/edit?usp=sharing"}><i className="fas fa-paperclip fa-2x" /></a></h5>
           </div>
           <div className="icon-block" style={{ margin: '10px' }}>
             <h5><a href={"https://github.com/ayladillis"}><i class="fab fa-github fa-2x" /></a></h5>
